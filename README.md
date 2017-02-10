@@ -6,9 +6,16 @@ To Dope - "Add an impurity to (a semiconductor) to produce a desired electrical 
 ## Purpose
 A helper library for Dependency Injection
 
-## Usage
+## Installation
 
+    pip install doper
+
+## Usage
 See [example.py](example.py)
+
+
+## Credits
+All credit goes to [David Keijser](https://github.com/keis/) for the original code that we kept copying around between projects.
 
 ## License
 
