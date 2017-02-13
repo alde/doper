@@ -10,7 +10,7 @@ class Doper:
         self.name = name
         registry[self.name] = {}
 
-    def dope(self, *items):
+    def __call__(self, *items):
         def decorator(func):
             @wraps(func)
             def wrapper(*args, **kwargs):

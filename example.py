@@ -1,11 +1,11 @@
 from doper import Doper
 
-doper = Doper(__name__)
+dope = Doper(__name__)
 
-doper.register('foo', 'bar')
+dope.register('foo', 'bar')
 
 
-@doper.dope('foo')
+@dope('foo')
 def injected_function(foo):
     print("injected %s" % foo)
 
