@@ -1,13 +1,14 @@
-from doper import Doper
+from doper import dope, register
 
-dope = Doper(__name__)
 
-dope.register('foo', 'bar')
-
+register('foo', 'bar')
 
 @dope('foo')
 def injected_function(foo):
     print("injected %s" % foo)
 
-
 injected_function()
+
+
+import example2
+example2.another()

@@ -11,7 +11,7 @@ A helper library for Dependency Injection
     pip install doper
 
 ## Usage
-See [example.py](example.py)
+See [example.py](examples/example.py)
 
 
 ## Credits
